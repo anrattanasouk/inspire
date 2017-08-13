@@ -30,63 +30,77 @@ function showGo() {
   document.getElementById('go').className ="showButton";
 }
 
-function showBoss() {
-  document.getElementById("boss").className ="showButton";
-}
-
 function showQuiet() {
   document.getElementById("stayquiet").className ="showButton";
+
+}
+
+function showBoss() {
+  document.getElementById("boss").className ="showButton";
+  document.getElementById("go").className ="invisible";
+
 }
 
 function showEpiphany() {
   document.getElementById("quitthis").className ="showButton";
+  document.getElementById("stayquiet").className ="invisible";
+  document.getElementById("boss").className ="invisible";
 }
 
 function showB() {
   document.getElementById("wrw").className ="showButton";
+  document.getElementById("quitthis").className ="invisible";
+
 }
 
 function hideEpiphany() {
   document.getElementById("quitthis").className = "hideEvery";
-}
 
-function hideBoss() {
-  document.getElementById("boss").className = "hideEvery";
+
 }
 
 function hideQuiet() {
   document.getElementById("stayquiet").className = "hideEvery";
+
+}
+
+function hideBoss() {
+  document.getElementById("boss").className = "hideEvery";
+
 }
 
 function undisableBtn() {
     document.getElementById("go").disabled = false;
-    document.getElementById("boss").disabled = false;
     document.getElementById("stayquiet").disabled = false;
+    document.getElementById("boss").disabled = false;
     document.getElementById("quitthis").disabled = false;
     document.getElementById("wrw").disabled = false;
   }
 
+  function notify1() {
+    alert("Hello! My name is Ada Lovelace!");
+  }
+
 function Twitter() {
-  document.getElementById('TwitterOp').innerHTML = "Congrats you just sent your resume to Twitter to apply for your first job!  2 weeks later...  'This is the recruiter from Twitter, we reviewed your application and after your interview last week, we think you’d be a really good fit for our company. We're happy to announce you as our new employee!'";
+  document.getElementById('TwitterOp').innerHTML = "Congrats you just sent your resume to Twitter to apply for your first job!  2 weeks later...  'This is the recruiter from Twitter, we reviewed your application and after your interview last week, we think you’d be a really good fit for our company. We're happy to announce you as our new employee!'<hr>";
+
   document.getElementById('situation_300').innterHTML = "Congrats, you work at Twitter now! Who wouldn’t want to work at Twitter? They have great food, shameless self-promotion, and you don’t experience any workplace sexism like you did in college. It seems perfect until one day you receive an opportunity to get promoted; you begin to suspect your fellow coworker is sabotaging your work. You’re surprised; you’ve experienced this before but from men, not women. You decide that you’re paranoid because women stick together, and you keep working hard. However, it doesn’t take long for you to decide that she is definitely sabotaging you, but what should you do? You decide to confront her. She denies your allegations, but you keep trying and she eventually confides. She explains that it’s hard to get by as a woman in tech and only one woman can get promoted, so she was making sure that she would get the promotion by making you look like an unreliable employee. <hr>"
 }
 
 function nextStory() {
   document.getElementById("appleStart").innerHTML = "Now you’re working in a prestigious company and you feel invincible. You do feel rather scared, but that’s understandable seeing as you’re starting a new job. You get into a groove after a couple weeks; the people seem pretty cool and you’re already making friends.<br>" +
   "However after awhile you start to notice that your boss has been favoring the male team members who were hired at the same time as you. You tell yourself that you’re crazy, but pretty soon it’s undeniably that your boss is biased towards your male counterparts. He glorifies the things they do, doesn’t pay much attention to you, and doesn’t act like you matter. One day you find out that the male members of the team are even getting paid more than you despite having done the same amount of work, and you’ve been working extremely hard these last few weeks. <hr>";
-}
 
-function talktoboss() {
-          document.getElementById('go').style.display = 'none';
-      console.log("heyo");
-
-
-  document.getElementById("meanBoss").innerHTML = "You try to explain to your boss about what’s going on, and he continues to shut you out. A coworker overhears your conversation and comes to help. She tells you that it happens to her too, and encourages you to choose your own path. You leave the room feeling inspired.<hr>";
 }
 
 function stayquiet() {
-  document.getElementById('go').style.display = 'none';
-  document.getElementById("quiet").innerHTML = "You stay quiet and start working twice as hard to compensate, but you notice that your boss still doesn’t care and some of your male coworkers have even been promoted. You continue to keep quiet hoping he’ll notice without making a scene, but you soon discover that your boss has started giving some of the male counterparts credit for the work you’ve been doing.<hr>";
+  document.getElementById("quiet").innerHTML = "I never am really satisfied that I understand anything; because, understand it well as I may, my comprehension can only be an infintesimal fraction of all I want to understand about the man connectiosn and realations which occur to me. Basically, hang in their girl, and never feel the need to stay quiet.<hr>";
+
+}
+
+function talktoboss() {
+  document.getElementById("meanBoss").innerHTML = "You try to explain to your boss about what’s going on, and he continues to shut you out. A coworker overhears your conversation and comes to help. She tells you that it happens to her too, and encourages you to choose your own path. You leave the room feeling inspired.<hr>";
+
 }
 
 function quitThis() {

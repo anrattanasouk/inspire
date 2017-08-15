@@ -6,10 +6,7 @@ var allbuttons = document.querySelectorAll("button");
 //When the button is clicked that the image shows then the user is not allowed to mess with it
 function clicksBtn() {
   document.getElementById("demo").innerHTML = 5 + 6;
-//   for (i=0; i < allbuttons.length; i++) {
-//     allbuttons[i].disabled = true;
-  }
-//}
+}
 
 function Google() {
   document.getElementById("googleOp").innerHTML = "Congrats you just sent your resume to Google to apply for your first job!  2 weeks later... This is the recruiter from Google, we reviewed your application and after your interview last week, we think you’d be a really good fit for our company. We're happy to announce you as our new employee!<hr>";

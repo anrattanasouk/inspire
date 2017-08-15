@@ -31,7 +31,7 @@ function showGo() {
 }
 
 function showQuiet() {
-  document.getElementById("stayquiet").className ="showButton";
+  document.getElementById("quiet").className ="showButton";
 
 }
 

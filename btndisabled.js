@@ -31,8 +31,7 @@ function showGo() {
 }
 
 function showQuiet() {
-  document.getElementById("stayquiet").className ="showButton";
-
+  document.getElementById("stayquiet1").className ="showButton";
 }
 
 function showBoss() {
@@ -43,24 +42,21 @@ function showBoss() {
 
 function showEpiphany() {
   document.getElementById("quitthis").className ="showButton";
-  document.getElementById("stayquiet").className ="invisible";
+  document.getElementById("stayquiet1").className ="invisible";
   document.getElementById("boss").className ="invisible";
 }
 
 function showB() {
   document.getElementById("wrw").className ="showButton";
   document.getElementById("quitthis").className ="invisible";
-
 }
 
 function hideEpiphany() {
   document.getElementById("quitthis").className = "hideEvery";
-
-
 }
 
 function hideQuiet() {
-  document.getElementById("stayquiet").className = "hideEvery";
+  document.getElementById("stayquiet1").className = "hideEvery";
 
 }
 
@@ -71,7 +67,7 @@ function hideBoss() {
 
 function undisableBtn() {
     document.getElementById("go").disabled = false;
-    document.getElementById("stayquiet").disabled = false;
+    document.getElementById("stayquiet1").disabled = false;
     document.getElementById("boss").disabled = false;
     document.getElementById("quitthis").disabled = false;
     document.getElementById("wrw").disabled = false;

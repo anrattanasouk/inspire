@@ -77,7 +77,7 @@ function undisableBtn() {
     alert("Hello! My name is Ada Lovelace!");
   }
 
-function Twitter() {
+function Facebook() {
   document.getElementById("TwitterOp").innerHTML = "Congrats you just sent your resume to Twitter to apply for your first job!  2 weeks later...  'This is the recruiter from Twitter, we reviewed your application and after your interview last week, we think you’d be a really good fit for our company. We're happy to announce you as our new employee!'<hr>";
 
   document.getElementById("situation_300").innterHTML = "Congrats, you work at Twitter now! Who wouldn’t want to work at Twitter? They have great food, shameless self-promotion, and you don’t experience any workplace sexism like you did in college. It seems perfect until one day you receive an opportunity to get promoted; you begin to suspect your fellow coworker is sabotaging your work. You’re surprised; you’ve experienced this before but from men, not women. You decide that you’re paranoid because women stick together, and you keep working hard. However, it doesn’t take long for you to decide that she is definitely sabotaging you, but what should you do? You decide to confront her. She denies your allegations, but you keep trying and she eventually confides. She explains that it’s hard to get by as a woman in tech and only one woman can get promoted, so she was making sure that she would get the promotion by making you look like an unreliable employee. <hr>"

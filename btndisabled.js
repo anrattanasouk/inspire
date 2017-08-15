@@ -7,6 +7,7 @@ var allbuttons = document.querySelectorAll("button");
 function clicksBtn() {
   for(i=0; i<allbuttons.length; i++) {
     document.querySelectorAll("button").disabled = true;
+  }
 }
 
 function Google() {

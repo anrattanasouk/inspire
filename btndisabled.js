@@ -104,7 +104,7 @@ function quitThis() {
 }
 
 function whoruntheworld() {
-document.getElementById("beyonce").innerHTML = "Out of the blue, you find a notification on your LinkedIn from Chariot, Uber of public transportation! They noticed your credentials and thought you would be a perfect tech manager, a role that they say would pay the exact same as its male counterpart, and so you happily accept their offer. After reflecting on your experiences, both the positive and the negative as well as solidifying your personal values, you feel empowered to approach this new job.<hr>"
+document.getElementById("beyonce").innerHTML = "Out of the blue, you find a notification on your LinkedIn from Twitter! They noticed your credentials and thought you would be a perfect tech manager, a role that they say would pay the exact same as its male counterpart, and so you happily accept their offer. After reflecting on your experiences, both the positive and the negative as well as solidifying your personal values, you feel empowered to approach this new job.<hr>"
 }
 
 //We only want to start with no buttons yet

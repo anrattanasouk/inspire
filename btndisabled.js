@@ -84,8 +84,8 @@ function Facebook() {
 }
 
 function nextStory() {
-  document.getElementById("appleStart").innerHTML = "Now you’re working in a prestigious company and you feel invincible. You do feel rather scared, but that’s understandable seeing as you’re starting a new job. You get into a groove after a couple weeks; the people seem pretty cool and you’re already making friends.<br>" +
-  "However after awhile you start to notice that your boss has been favoring the male team members who were hired at the same time as you. You tell yourself that you’re crazy, but pretty soon it’s undeniably that your boss is biased towards your male counterparts. He glorifies the things they do, doesn’t pay much attention to you, and doesn’t act like you matter. One day you find out that the male members of the team are even getting paid more than you despite having done the same amount of work, and you’ve been working extremely hard these last few weeks. <hr>";
+  document.getElementById("appleStart").innerHTML = "Now you’re working in a prestigious company and you feel invincible. You do feel rather scared, but that’s understandable seeing as you’re starting a new job. You get into a groove after a couple weeks; the people seem cool and you’re already making friends.<br>" +
+  "However after a while you start to notice that your boss has been favoring the male team members who were hired at the same time as you. You tell yourself that you’re crazy, but soon it’s undeniably obviously that your boss is biased towards your male counterparts. He glorifies the things they do, doesn’t pay much attention to you, and doesn’t act like you matter. One day you find out that the male members of the team are even getting paid more than you despite having done the same amount of work, and you’ve been working extremely hard these last few weeks. Later... 'This is the recruiter from Apple, we reviewed your application and after your interview last week, we think you’d be a really good fit for our company. We're happy to announce you as our new employee!'<hr>";
 
 }
 

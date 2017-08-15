@@ -6,7 +6,7 @@ var allbuttons = document.querySelectorAll("button");
 //When the button is clicked that the image shows then the user is not allowed to mess with it
 function clicksBtn() {
   for(i=0; i<allbuttons.length; i++) {
-    document.querySelectorAll("button").disabled = true;
+    allbuttons.disabled = true;
   }
 }
 

@@ -90,7 +90,7 @@ function nextStory() {
 }
 
 function stayquiet() {
-  document.getElementById("stayquiet").innerHTML = "I never am really satisfied that I understand anything; because, understand it well as I may, my comprehension can only be an infintesimal fraction of all I want to understand about the man connectiosn and realations which occur to me. Basically, hang in their girl, and never feel the need to stay quiet.<hr>";
+  document.getElementById("quiet").innerHTML = "I never am really satisfied that I understand anything; because, understand it well as I may, my comprehension can only be an infintesimal fraction of all I want to understand about the man connectiosn and realations which occur to me. Basically, hang in their girl, and never feel the need to stay quiet.<hr>";
 
 }
 
